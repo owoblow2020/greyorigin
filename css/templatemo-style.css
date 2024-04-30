@@ -166,7 +166,7 @@ ul {
   vertical-align: bottom;
 }
 .tm-site-name {
-  color: #c79c60;
+  color: #ec1515;
   display: inline-block;
   font-size: 32px;
   margin: 0 10px;  
@@ -198,7 +198,7 @@ ul {
 .tm-nav li a:hover,
  .tm-nav li a:focus,
  .tm-nav li a.active {  
-  color: #c79c60;
+  color: #ec1515;
   text-decoration: none;
 }
 .tm-nav li a.active {
@@ -263,7 +263,7 @@ ul {
   height: 46px;  
   text-transform: uppercase;
   font-size: 16px;
-  color: #c79c60;
+  color: #f4ebde;
   -webkit-transition: all 0.3s ease;
           transition: all 0.3s ease;
 }
@@ -527,7 +527,7 @@ ol li:before {
   width: 100%;
   height: 41px;
 }
-.tm-hr { border-color: #c79c60; }
+.tm-hr { border-color: #ec1515; }
 .tm-daily-menu-container { overflow: hidden; }
 
 /* Menu */
@@ -547,7 +547,7 @@ ol li:before {
 }
 .tm-side-menu li { list-style: none; }
 .tm-side-menu li a {
-  color: #7c6a51;
+  color: #ec1515;
   padding: 7px;
   display: block;
   -webkit-transition: all 0.3s ease;
@@ -555,7 +555,7 @@ ol li:before {
 }
 .tm-side-menu li a:hover,
 .tm-side-menu li a.active {
-  color: #c79c60;
+  color: #ec1515;
   text-decoration: none;
 }
 .tm-product {
@@ -688,7 +688,7 @@ button.tm-more-button {
   .mobile-menu-icon {
     display: block;
     cursor: pointer;
-    color: #c79c60;
+    color: #ec1515;
     font-size: 30px;
     position: fixed;
     top: 15px;
