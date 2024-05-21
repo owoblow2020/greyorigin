@@ -35,7 +35,7 @@ Cafe House Template-->
         <div class="row">
           <div class="tm-top-header-inner">
             <div class="tm-logo-container">
-              <img src="img/logo.png" alt="Logo" class="tm-site-logo">
+              <a href="index.html"><img src="img/logo.png" alt="Logo" class="tm-site-logo"></a>
              <!-- <h1 class="tm-site-name tm-handwriting-font">Grey Origin 360</h1> -->
             </div>
             <div class="mobile-menu-icon">
@@ -66,7 +66,7 @@ Cafe House Template-->
       <div class="container" id="main">
         <section class="tm-section row">
           <h2 class="col-lg-12 margin-bottom-30">Send us a message</h2>
-          <form action="#" method="post" class="tm-contact-form">
+          <form name="Contact Form" method="post" data-netlify="true"class="tm-contact-form">
             <div class="col-lg-6 col-md-6">
               <div class="form-group">
                 <input type="text" id="contact_name" class="form-control" placeholder="NAME" />
@@ -128,7 +128,7 @@ Cafe House Template-->
    <!-- JS -->
    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      <!-- jQuery -->
    <script type="text/javascript" src="js/templatemo-script.js"></script>      <!-- Templatemo Script -->
-   <script>
+   <!-- <script>
       /* Google map
       ------------------------------------------------*/
       var map = '';
@@ -166,5 +166,23 @@ Cafe House Template-->
         loadGoogleMap();                
       });
       </script>
+    -->
+    <div id="map"></div>
+
+    <script>
+        function initMap() {
+            // Set the coordinates for the map center
+            var mapCenter = {lat: 9.062346618077592, lng: 7.482231848306894};
+
+            // Create a new map instance
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 12,
+                center: mapCenter
+            });
+        }
+    </script>
+
+    <!-- Replace YOUR_API_KEY with your actual Google Maps API key 
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>-->
     </body>
     </html>
